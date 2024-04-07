@@ -37,5 +37,5 @@ else:
     category = "Obesity"
 
 # Print the results
-print(f"{name} is {category}")
-print(f"BMI: {bmi:.2f}")
+print(name + " is " + category)
+print("BMI: ", bmi)
